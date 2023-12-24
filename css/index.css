@@ -1,0 +1,147 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 980px) {
+  .header {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .header .news {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .header .monthNews {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .header .allSearch {
+    width: 96%;
+    margin-top: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .header .notice {
+    width: 96%;
+    margin-top: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+.news {
+  list-style: none;
+  margin-left: 8%;
+  width: 35%;
+  margin-top: 50px;
+  height: auto;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+}
+
+.news a {
+  color: #333;
+  font-weight: bold;
+}
+
+.news li {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.monthNews {
+  text-align: center;
+  color: #333;
+  padding: 10px 10px 9px;
+  font-size: 40px;
+  border-bottom: 3px solid gray;
+  margin-left: 20px;
+	margin-right: 20px;
+}
+
+.allSearch {
+  list-style: none;
+  margin-left: 4%;
+  margin-right: 8%;
+  width: 45%;
+  margin-top: 50px;
+  height: auto;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+}
+
+.allSearch a {
+  color: #333;
+  font-weight: bold;
+}
+
+.allSearch li {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.search {
+  text-align: center;
+  color: #333;
+  padding: 10px 10px 9px;
+  font-size: 40px;
+  border-bottom: 3px solid gray;
+  margin-left: 20px;
+	margin-right: 20px;
+}
+
+.request {
+  text-align: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.request a {
+  color: blue;
+}
+
+.notice {
+  list-style: none;
+  margin-left: 8%;
+  width: 35%;
+  margin-top: 100px;
+  height: auto;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+}
+
+
+.notice a {
+  color: #333;
+  font-weight: bold;
+}
+
+
+.notice li {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.noticeBar  {
+  text-align: center;
+  color: #333;
+  padding: 10px 10px 9px;
+  margin-left: 20px;
+  font-size: 40px;
+  border-bottom: 3px solid gray;
+  margin-left: 20px;
+	margin-right: 20px;
+}

@@ -1,3 +1,4 @@
+
 const burger = document.querySelector(".burger");
 const nav = document.querySelector(".nav-links");
 const navLinks = document.querySelectorAll(".nav-links li");
@@ -31,3 +32,5 @@ window.matchMedia('(prefers-color-scheme: dark)')
       // それ以外のモードの処理
     }
   });
+
+  

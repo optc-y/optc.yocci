@@ -1,0 +1,28 @@
+'use strict';
+
+{
+    const $hdr_main = document.getElementById('hdr_main');
+    $hdr_main.insertAdjacentHTML('afterbegin' , `
+  <nav>
+    <div class="box" id="makeImg"></div>
+    <a href="../../index.html"><img src="../../img/etc/logo.png"width="auto" height="100vh" alt="ホーム"></a>
+    <ul class="nav-links">
+      <li><a href="../../pages/Tavern/Tavern-Home.html">酒場情報</a></li>
+      <li><a href="../../pages/Pirate King Adventures/PKA-Home.html">海賊王への軌跡</a></li>
+      <li><a href="../../pages/Treasure Map/TM-Home.html">トレジャーマップ</a></li>
+      <li><a href="../../pages/Kizuna Clash/KC-Home.html">絆決戦</a></li>
+      <li><a href="../../pages/Events/Events-Home.html">イベント</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  
+  <div class="siteLink">
+      <a href="https://twitter.com/1yoccccci7" target="_blank"> <img src="../../img/etc/X-logo-black.png" alt="X" width="50" height="auto"></a>
+      <a href="https://www.youtube.com/channel/UCrW2L9sQW8TVwfrxz-fjXHA" target="_blank"> <img src="../../img/etc/youtube-logo.png" alt="Youtube" width="60" height="auto"></a>
+  </div>
+`)
+}

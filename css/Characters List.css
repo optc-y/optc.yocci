@@ -1,0 +1,252 @@
+/* スクロールバーの表示/非表示 */
+@media screen and (max-width: 1024px) {
+  #table {
+    overflow-x:scroll;
+  }
+}
+/*スクロールバー非表示（IE・Edge）*/
+#table {
+  -ms-overflow-style: none;
+/*スクロールバー非表示（Firefox）*/
+  scrollbar-width: none;
+}
+/*スクロールバー非表示（Chrome・Safari）*/
+.content::-webkit-scrollbar{
+  display:none;
+}
+
+/* テーブル */
+tr {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+td {
+  border: 1px solid #000;
+  padding: 1px 10px 1px 10px;
+}
+
+th {
+  border: 1px solid #000;
+  padding: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 0px/*表全体を線で囲う*/
+}
+
+#tableList {
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  /* margin-top: 50px; */
+  /* width: 50%; */
+}
+
+#tableList thead {
+    background-color: #364e8b;
+    color: #fff;
+}
+
+#tableList td:nth-child(odd) {
+    background:#ffffff;
+}
+
+#tableList td:nth-child(even) {
+    background:#eeeeee;
+}
+
+.scopeCharimg img {
+  width: 60px;
+  height: auto;
+  margin-top: 6px;
+}
+
+.scopeTypeimg img {
+  width: 40px;
+  height: auto;
+  margin-top: 6px;
+}
+
+.scopeClassimg img {
+  margin: 6px 0 0 0;
+  width: 35px;
+}
+
+img[src$="img/charimgs/0/000/0000.png"]{
+  border-radius: 50px 50px 50px 50px;
+}
+
+
+a {
+  cursor: pointer;
+  color: #0077a7;
+}
+
+p {
+  font-size: 10px;
+  margin: 0 !important;
+}
+
+/* レアリティの色 */
+/* ★1 */
+.stars-1:before {
+  color: #00c4c4;
+  content: '\2605';
+}
+.stars-1:after {
+  color: #cccccc;
+  content: '\2605\2605\2605\2605\2605';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★2 */
+.stars-2:before {
+  color: #00ff4c;
+  content: '\2605\2605';
+}
+.stars-2:after {
+  color: #cccccc;
+  content: '\2605\2605\2605\2605';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★3 */
+.stars-3:before {
+  color: #88ff00;
+  content: '\2605\2605\2605';
+}
+.stars-3:after {
+  color: #cccccc;
+  content: '\2605\2605\2605';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★4 */
+.stars-4:before {
+  color: #ffd900;
+  content: '\2605\2605\2605\2605';
+}
+.stars-4:after {
+  color: #cccccc;
+  content: '\2605\2605';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★5 */
+.stars-5:before {
+  color: #ff7b00;
+  content: '\2605\2605\2605\2605\2605';
+}
+.stars-5:after {
+  color: #cccccc;
+  content: '\2605';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★5+ */
+*[class~="stars-5+"]:before {
+  color: #e14444;
+  content: '\2605\2605\2605\2605\2605\002B';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★6 */
+.stars-6:before {
+  color: #0011ff;
+  content: '\2605\2605\2605\2605\2605\2605';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ★6+ */
+*[class~="stars-6+"]:before {
+  color: #8400ff;
+  content: '\2605\2605\2605\2605\2605\2605\002B';
+}
+.stars:before, .stars:after {
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 13px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.table td a {
+  text-decoration: none;
+  color: #065FD4;
+  font-weight: bold;
+}
+
+.table  td a:hover {
+  color: #0146a0;
+  text-decoration-line:underline;
+}
+

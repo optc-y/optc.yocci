@@ -3,6 +3,9 @@
 {
     const $hdr_main = document.getElementById('hdr_main');
     $hdr_main.insertAdjacentHTML('afterbegin' , `
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../img/etc/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/x-icon" href="../../img/etc/favicon.ico">
   <nav>
     <div class="box" id="makeImg"></div>
     <a href="../../index.html"><img src="../../img/etc/logo.png"width="auto" height="100vh" alt="ホーム"></a>

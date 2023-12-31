@@ -22,15 +22,16 @@
   }
   .main .allSearch {
     width: 96%;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 2%;
     margin-right: 2%;
   }
   .main .information {
     width: 96%;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 2%;
     margin-right: 2%;
+    
   }
 }
 
@@ -63,6 +64,7 @@
 }
 
 .monthNews {
+  font-family: 'Rampart One', sans-serif;
   text-align: center;
   color: #333;
   padding: 10px 10px 9px;
@@ -102,6 +104,7 @@
 }
 
 .search {
+  font-family: 'Rampart One', sans-serif;
   text-align: center;
   color: #333;
   padding: 10px 10px 9px;
@@ -126,7 +129,7 @@
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
-  margin-top: 100px;
+  margin-top: 50px;
   height: auto;
   background-color: #eeeeee;
   box-sizing: border-box;
@@ -152,6 +155,7 @@
 }
 
 .informationBar {
+  font-family: 'Rampart One', sans-serif;
   text-align: center;
   color: #333;
   padding: 10px 10px 9px;

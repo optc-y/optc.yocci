@@ -5,6 +5,11 @@
 }
 
 @media screen and (max-width: 980px) {
+  .accordion-btn {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    width: 96% !important;
+  }
   .main {
     display: block;
     text-align: center;
@@ -31,21 +36,129 @@
     margin-top: 20px;
     margin-left: 2%;
     margin-right: 2%;
-    
   }
+}
+
+.accordion-update {
+  text-align: center;
+}
+
+.accordion-btn {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 84%;
+  height: auto;
+  cursor: pointer;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.accordion-content{
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.accordion-content a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.accordion-content a:hover {
+  text-decoration-line:underline;
+}
+
+.accordion-content a:hover {
+  text-decoration-line:underline;
+}
+
+.accordion-btn::after{
+  content: '▼';
+  float: right;
+}
+.accordion-btn.open::after{
+  content: '▲';
+}
+
+
+
+
+/* 今月のNEWS 星 色 */
+/* ガシャ */
+.newsGacha:before {
+  color: red;
+  content: '\2605';
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 20px;
+}
+/* キャラクター情報 */
+.newsCharInfo:before {
+  color: #06b800;
+  content: '\2605';
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 20px;
+}
+/* キャーンペーン */
+.newsCampaign:before {
+  color: #ff7b00;
+  content: '\2605';
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 20px;
+}
+/* 冒険 */
+.newsAdventure:before {
+  color: #4e00ca;
+  content: '\2605';
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 20px;
+}
+/* その他 */
+.newsOther:before {
+  color: #00c7ce;
+  content: '\2605';
+  font-weight: bold;
+  font-family: icomoon;
+  font-size: 20px;
+}
+
+.accordionIcon::before {
+  content: "\229B";
 }
 
 .news {
   list-style: none;
   margin-left: 8%;
   width: 40%;
-  margin-top: 50px;
+  margin-top: 20px;
   height: auto;
+  height: 530px;
   background-color: #eeeeee;
   box-sizing: border-box;
   border-radius: 25px 25px 25px 25px;
   border: 1px solid #bd973d;
+  overflow: scroll;
+  /* IE, Edge 対応 */
+  -ms-overflow-style: none;
+  /* Firefox 対応 */
+  scrollbar-width: none;
 }
+
+/* Chrome, Safari 対応 */
+.news::-webkit-scrollbar {
+  display:none;
+ }
 
 .news a {
   color: #333;
@@ -74,12 +187,21 @@
 	margin-right: 20px;
 }
 
+.newsScroll {
+  text-align: center;
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+  color: red;
+  font-weight: bold;
+}
+
 .allSearch {
   list-style: none;
   margin-left: 4%;
   margin-right: 8%;
   width: 40%;
-  margin-top: 50px;
+  margin-top: 20px;
   height: auto;
   background-color: #eeeeee;
   box-sizing: border-box;
@@ -126,9 +248,9 @@
 
 .information {
   list-style: none;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
   margin-top: 50px;
   height: auto;
   background-color: #eeeeee;
@@ -164,4 +286,8 @@
   border-bottom: 3px solid gray;
   margin-left: 20px;
 	margin-right: 20px;
+}
+
+.displaynone {
+  display: none;
 }

@@ -45003,7 +45003,7 @@
       const tr = document.createElement('tr');
       tr.innerHTML = `
                   <td class="scopeCharNo">${item.No}</td>
-                  <td class="scopeCharimg"><img src="../../img/charimgs/${item.charimg}.png" loading="lazy"></td>
+                  <td class="scopeCharimg"><img src="../../../../../img/charimgs/${item.charimg}.png" loading="lazy"></td>
                   <td class="scopeCharname"><a href="./PCL/${item.charName}</p></a></td>
                   <td class="scopeCharType type-${item.type}</td>
                   <td class="scopeCharClass class-">${item.class}</td>
